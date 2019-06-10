@@ -170,11 +170,11 @@ return [
         /*
          * Application Service Providers...
          */
-        Buku\Providers\AppServiceProvider::class,
-        Buku\Providers\AuthServiceProvider::class,
-        // Buku\Providers\BroadcastServiceProvider::class,
-        Buku\Providers\EventServiceProvider::class,
-        Buku\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
 
     ],
 
